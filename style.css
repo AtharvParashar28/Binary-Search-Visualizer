@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+    
+    #array {
+    background-attachment: fixed;
+    height: 450px;
+    width: 650px;
+    margin: auto;
+    position: relative;
+    margin-top: 64px;
+    }
+    .text{
+        position: absolute;
+        right: 200px;
+        font-size: large;
+        font-weight: 100;
+        font-family: 'Bungee Spice', cursive;
+        font-family: 'Rubik Moonrocks', cursive;
+        color: white;
+    }
+    .block {
+    width: 30px;
+    background-color : white;
+    position: absolute;
+    bottom: 0px;
+    right: 200px;
+    transition: 0.2s all ease;
+    overflow-x: visible;
+    }
+    
+    .block_id {
+    position: absolute;
+    color: black;
+    margin-top: -20px;
+    width: 100%;
+    text-align: center;
+    }
+
+    body {
+        background-image: url(Binary-Search.png);
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+      } 
+   
+    
